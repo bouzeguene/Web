@@ -19,7 +19,7 @@
     <h1>Mon document PDF</h1>
 
     <iframe 
-        src="asso.pdf"
+        src="assets/asso.pdf"
         class="pdf-container"
         frameborder="0">
     </iframe>
