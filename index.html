@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sadi - Your Project — Home</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <meta name="description" content="A simple GitHub Pages site for your repository." />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Your Project</h1>
+      <p class="tagline">A simple GitHub Pages site</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2>Welcome</h2>
+      <p>This is a lightweight landing page for the repository. Edit this content to describe your project, add screenshots, or link to docs.</p>
+      <p>
+        <a class="btn" href="https://github.com/bouzeguene/Web" target="_blank" rel="noopener">View on GitHub</a>
+      </p>
+    </section>
+
+    <section class="features">
+      <div class="card">
+        <h3>Get started</h3>
+        <p>Clone the repo, update this page, and push to the gh-pages branch to publish.</p>
+      </div>
+      <div class="card">
+        <h3>Customize</h3>
+        <p>Replace this content, add images into assets/, or add additional pages like about.html.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> bouzeguene — Hosted with GitHub Pages</small>
+    </div>
+  </footer>
+
+  <script>
+    // update year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
